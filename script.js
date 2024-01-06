@@ -71,7 +71,6 @@ function showCard(movies) {
 		});
 
 		//이미지 클릭하면 id값 나오는
-		// const movieId = id =>  alert(`영화 id`)
 
 		movieCard.appendChild(wrapCards);
 	});

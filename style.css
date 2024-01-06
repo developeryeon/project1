@@ -84,7 +84,7 @@ button {
 #movies_card {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	margin-left: 5%;
+	margin-left: 3%;
 	text-align: center;
 	color: #555;
 	grid-gap: 5px;
@@ -129,4 +129,10 @@ button {
 
 .tag_hide {
 	display: none;
+}
+
+@media (max-width: 600px) {
+	.top_nav .logo {
+		font-size: 10px;
+	}
 }

@@ -130,9 +130,3 @@ button {
 .tag_hide {
 	display: none;
 }
-
-@media (max-width: 600px) {
-	.top_nav .logo {
-		font-size: 10px;
-	}
-}

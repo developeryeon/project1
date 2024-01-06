@@ -82,17 +82,18 @@ button {
 }
 
 #movies_card {
+	width: 100%;
+	height: 50%;
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 5px;
+	grid-template-columns: repeat(2, 1fr);
 	margin-left: 3%;
 	text-align: center;
 	color: #555;
 }
 
 #movies_card .wrap_cards {
-	/* height: 750px;
-	width: 550px; */
+	height: 640px;
+	width: 550px;
 	line-height: 1.2;
 	font-size: 22px;
 	box-shadow: 0 2px 5px #777, 0 3px 6px #666;
@@ -106,8 +107,8 @@ button {
 
 .wrap_cards .card-img {
 	margin: 15px auto 8px auto;
-	width: 60%;
-	height: 55%;
+	width: 50%;
+	height: 45%;
 	cursor: pointer;
 	border-radius: 10px;
 }

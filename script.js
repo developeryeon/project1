@@ -1,13 +1,13 @@
 // API
 // import config from '../src/config.js';
 const apiKey = config.apiKey;
-const accessToken = config.accessToken;
+// const accessToken = config.accessToken;
 
 const options = {
 	method: 'GET',
 	headers: {
 		accept: 'application/json',
-		Authorization: `Bearer ${accessToken}`,
+		Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNDI2MmNhZTU2NTg4OTIyZmJiYmZmYjQ3NzIyOTI2ZiIsInN1YiI6IjY1OGUyOWY5ZDc1YmQ2NDE0ZTcyOTczMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R7gFfyBqP0L6j3F1MaKwImsNmvCin8Apwoh00iKAlOo`,
 	},
 };
 

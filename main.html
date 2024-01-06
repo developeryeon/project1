@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>by's movie project</title>
+		<!-- css -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="top_nav">
+			<div class="logo">YEONMOVIES WEP</div>
+			<a href="#userInfo.html">login</a>
+		</nav>
+		<form class="input-form">
+			<select class="selectBox">
+				<option id="title" value="title">title</option>
+				<option id="year" value="year">year</option>
+			</select>
+			<input type="text" id="searchBox" placeholder="영화를 검색해주세요" />
+			<button type="submit" id="searchBtn">search</button>
+		</form>
+		<section id="movies_card"></section>
+	</body>
+	<script src="config.js"></script>
+	<script src="script.js"></script>
+</html>

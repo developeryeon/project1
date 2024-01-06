@@ -14,6 +14,7 @@ body {
 	background-color: beige;
 	font-size: 18px;
 	font-family: 'Gamja Flower', sans-serif;
+	width: 100%;
 }
 
 nav {
@@ -91,8 +92,10 @@ button {
 }
 
 #movies_card .wrap_cards {
-	height: 750px;
-	width: 550px;
+	/* height: 750px;
+	width: 550px; */
+	height: 93%;
+	width: 70%;
 	line-height: 1.2;
 	font-size: 22px;
 	box-shadow: 0 2px 5px #777, 0 3px 6px #666;
@@ -123,7 +126,7 @@ button {
 }
 
 .wrap_cards #text_show {
-	width: 500px;
+	width: 90%;
 	margin: 3px auto 2px auto;
 }
 

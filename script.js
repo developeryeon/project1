@@ -70,8 +70,6 @@ function showCard(movies) {
 			overViewToggle(textShow);
 		});
 
-		//이미지 클릭하면 id값 나오는
-
 		movieCard.appendChild(wrapCards);
 	});
 }

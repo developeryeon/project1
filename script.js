@@ -20,7 +20,6 @@ function getMovieList() {
 		.then((data) => {
 			theMoviedbMovieList = data.results;
 
-			//showCard 에 result 값을 넣어준다
 			showCard(theMoviedbMovieList);
 		})
 		.catch((err) => console.error(err));

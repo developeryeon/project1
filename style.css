@@ -31,6 +31,7 @@ nav {
 	font-weight: bold;
 	font-size: 56px;
 	color: azure;
+	letter-spacing: 2px;
 }
 
 .top_nav a {
@@ -97,6 +98,7 @@ button {
 	box-shadow: 0 2px 5px #777, 0 3px 6px #666;
 	margin: 10px;
 	border-radius: 10px;
+	letter-spacing: 1px;
 }
 
 #movies_card .wrap_cards:hover {

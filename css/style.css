@@ -1,134 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
 
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	background-color: beige;
-	font-size: 18px;
-	font-family: 'Gamja Flower', sans-serif;
+  background-color: beige;
+  font-size: 18px;
+  font-family: "Gamja Flower", sans-serif;
 }
 
 nav {
-	background-color: seagreen;
-	display: flex;
-	justify-content: space-between;
-	height: 120px;
+  background-color: seagreen;
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
 }
 
 .top_nav .logo {
-	margin-left: 5%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-weight: bold;
-	font-size: 56px;
-	color: azure;
-	letter-spacing: 2px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 56px;
+  color: azure;
+  letter-spacing: 2px;
 }
 
 .top_nav a {
-	margin-right: 5%;
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	color: azure;
-	font-weight: 600;
-	font-size: 30px;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: azure;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 .input-form {
-	display: flex;
-	justify-content: center;
-	margin-top: 30px; /* nav-bottom에서 떨어지게 */
-	margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; /* nav-bottom에서 떨어지게 */
+  margin-bottom: 20px;
 }
 
 .input-form .selectBox,
 #searchBox,
 button {
-	margin: 15px;
-	padding: 12px;
-	border-radius: 10px;
-	border: none;
-	font-weight: bold;
-	font-size: 19px;
-	font-family: 'Gamja Flower', sans-serif;
+  margin: 15px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: "Gamja Flower", sans-serif;
 }
 
 .input-form .selectBox {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .input-form #searchBox {
-	width: 350px;
-	padding: 13px;
+  width: 350px;
+  padding: 13px;
 }
 
 .input-form #searchBtn {
-	cursor: pointer;
-	width: 80px;
+  cursor: pointer;
+  width: 80px;
 }
 
 .input-form #searchBtn:hover {
-	background-color: rgb(140, 202, 69);
-	color: #fff;
+  background-color: rgb(140, 202, 69);
+  color: #fff;
 }
 
 #movies_card {
-	display: grid;
-	/* grid-template-columns: repeat(2, 1fr); */
-	grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-	place-items: center;
-	text-align: center;
-	color: #555;
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  place-items: center;
+  text-align: center;
+  color: #555;
 }
 
 #movies_card .wrap_cards {
-	height: 640px;
-	width: 550px;
-	line-height: 1.2;
-	font-size: 22px;
-	box-shadow: 0 2px 5px #777, 0 3px 6px #666;
-	margin: 10px;
-	border-radius: 10px;
-	letter-spacing: 1px;
+  height: 710px;
+  width: 550px;
+  line-height: 1.2;
+  font-size: 22px;
+  box-shadow: 0 2px 5px #777, 0 3px 6px #666;
+  margin: 10px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
 }
 
 #movies_card .wrap_cards:hover {
-	opacity: 70%;
+  opacity: 75%;
 }
 
 .wrap_cards .card-img {
-	margin: 15px auto 8px auto;
-	width: 50%;
-	height: 45%;
-	cursor: pointer;
-	border-radius: 10px;
+  margin: 15px auto 8px auto;
+  width: 60%;
+  height: 55%;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .wrap_cards .card-title {
-	cursor: pointer;
-	margin-bottom: 3px;
+  cursor: pointer;
+  margin-bottom: 3px;
 }
 
 .wrap_cards .card-title:hover {
-	color: darkslateblue;
-	font-weight: bolder;
+  color: darkslateblue;
+  font-weight: bolder;
 }
 
 .wrap_cards #text_show {
-	width: 500px;
-	margin: 3px auto 2px auto;
+  width: 500px;
+  margin: 3px auto 2px auto;
 }
 
 .tag_hide {
-	display: none;
+  display: none;
 }

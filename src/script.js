@@ -1,6 +1,8 @@
 //API
 // import { apiKey, accessToken } from "../src/config.js";
 
+const apiKey = config.apiKey;
+
 const options = {
   method: "GET",
   headers: {

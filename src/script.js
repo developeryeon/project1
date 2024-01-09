@@ -85,14 +85,14 @@ window.addEventListener("load", () => {
 
   // 검색창에 입력하고 버튼 클릭하면 함수 searchMovie 실행
   searchBtn.addEventListener("click", e => {
+    //유효성검사
     if (searchBox.value == "") {
-      e.preventDefault();
-      alert("검색어를 입력해주세요");
-      searchBox.focus();
-    } else {
-      e.preventDefault();
-      const val = searchBox.value;
-      searchMovie(val);
+      alert("검색어를 입력하세요");
     }
+    //새로고침 방지
+    e.preventDefault();
+
+    const val = searchBox.value;
+    searchMovie(val);
   });
 });

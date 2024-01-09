@@ -1,11 +1,12 @@
 //API
-import { apiKey, accessToken } from "../src/config.js";
+// import { apiKey, accessToken } from "../src/config.js";
+const apiKey = "24262cae56588922fbbbffb47722926f";
 
 const options = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization: `Bearer ${accessToken}`
+    Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNDI2MmNhZTU2NTg4OTIyZmJiYmZmYjQ3NzIyOTI2ZiIsInN1YiI6IjY1OGUyOWY5ZDc1YmQ2NDE0ZTcyOTczMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R7gFfyBqP0L6j3F1MaKwImsNmvCin8Apwoh00iKAlOo`
   }
 };
 
@@ -89,7 +90,7 @@ window.addEventListener("load", () => {
     if (searchBox.value == "") {
       alert("검색어를 입력하세요");
     }
-    //새로고침 방지
+    //새로고침
     e.preventDefault();
 
     const val = searchBox.value;
